@@ -12,7 +12,7 @@ nama= st.text_input("Siapa namamu?")
 if st.button("Klik saya!"):
     if nama:
         st.success(f"Hallo,{nama}! Selamat belajar streamlit. Kamu hebat!")
-        st.ballons()
+        st.balloons()
     else:
         st.warning("Isi namamu dulu dikotak atas ya!")
         
